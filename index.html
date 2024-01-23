@@ -128,6 +128,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 	</div>
 			<!-- about -->
 			<div id="about" class="about">
+				<div class="col-md-5">
+					<img src="images/A2.jpg" height="100%" width="100%">
+				</div>
 				<div class="col-md-7 about-left">
 					<div id="owl-demo1" class="owl-carousel owl-carousel2">
 					                <div class="item">
@@ -142,9 +145,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 										</div>
 					                </div>
 					</div>
-				</div>
-				<div class="col-md-5 about-right">
-					
 				</div>
 				<div class="clearfix"> </div>
 							<link href="css/owl.carousel.css" rel="stylesheet">
@@ -486,11 +486,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 								</script>
 								<!--end-smooth-scrolling-->
 <!-- //for bootstrap working -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 	$("#submit-form").submit((e)=>{
 		e.preventDefault()
 		$.ajax({
-			url:"https://script.google.com/macros/s/AKfycbzRLBYTTRLcUfmUt1JJpILiPP4wJW8A_SiYElFrbVgLaQojdo42RIDHsSaZmXWTwJt-PA/exec",
+			url:"https://script.google.com/macros/s/AKfycbzlF2PPViM7MK1ivBAwTMxFXNJ79xGtJ0lLC4nexo66ODVEmDoCCA2PYHnn0pauOGr6/exec",
 			data:$("#submit-form").serialize(),
 			method:"post",
 			success:function (response){
